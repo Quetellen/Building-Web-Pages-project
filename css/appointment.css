@@ -39,6 +39,24 @@ input[type="text"]{
     padding: 8px;
     margin: 8px;
 }
+input[type="date"]{
+    width: auto;
+    display: inline;
+    border: 1px solid #7a7373;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+    font-family: poppins;
+    font-size: 24px;
+}
+
+.error{
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
+
 select[id]{
     width: 18%;
     display: inline;
