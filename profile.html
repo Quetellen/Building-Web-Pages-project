@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+            border-radius: 12px;
+            width: 240px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 12px;
+            background: linear-gradient(120deg,#39ef74,#4600f1 100%);
+            animation: rotateCard 7s infinite;
+        }
+        img{
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+        }
+        @keyframes rotateCard{
+            50% {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3> Welcome to our Profile</h3>
+        <br>
+        <h2>John Watson</h2>
+        <img src="./images/profile.png"  alt="John" width="200px" height="120px">
+        <br>
+        <p>john.watson@example.com</p>
+       <br>
+       <b><a href="">Manage Addresses</a></b>
+       <br>
+       <b><a href="">Manage Orders</a></b>
+       <br>
+       <b><a href="">Manage Membership</a></b>
+       <br><br>
+       <button>Update Profile</button>
+    </div>
+    
+</body>
+</html>
