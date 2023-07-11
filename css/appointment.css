@@ -1,7 +1,9 @@
 body{
     text-align: center;
     background-color: rgb(237, 245, 245);
+    font-family: 'Poppins', sans-serif;
 }
+
 h1{
     color: rgba(118, 88, 46, 0.989);
     font-family: poppins;
@@ -18,7 +20,7 @@ form{
     font-size: 24px;
     color: rgb(27, 25, 25);
 }
-div {
+.container {
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
     border-radius: 24px;
@@ -63,6 +65,8 @@ input[type="submit"]{
     box-sizing: border-box;
     padding: 8px;
     margin: 8px;
+    font-family: poppins;
+    font-size: 24px;
 }
 input[type="reset"]{
     width: auto;
@@ -72,4 +76,10 @@ input[type="reset"]{
     box-sizing: border-box;
     padding: 8px;
     margin: 8px;
+    font-family: poppins;
+    font-size: 24px;
+}
+select {
+    font-family: poppins;
+    font-size: 24px;
 }
