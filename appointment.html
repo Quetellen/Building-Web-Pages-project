@@ -24,13 +24,13 @@
          <!--DATES-->
          
          <div name="choseDate">
-            <label for="meeting-time">Choose the prefer date for your appointment.</label> <br>
+            <label for="meetingTime">Choose the prefer date for your appointment.</label> <br>
 
-            <input type="datetime-local" id="meeting-time"
+            <input type="datetime-local" id="meetingTime"
                   name="meeting-time" value="2023-07-11T09:00"
                   min="2023-07-11T07:00" max="2023-09-30T16:00" required>
+            <span class="error" aria-live="polite"></span>
             <br>
-      
             <p>Select the desired option:</p>
             <input type="radio" name="method" value="In person">In person<br>
             <input type="radio" name="method" value="Zoom">Zoom<br>  
