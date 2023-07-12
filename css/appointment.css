@@ -39,7 +39,7 @@ input[type="text"]{
     padding: 8px;
     margin: 8px;
 }
-input[type="date"]{
+input[type="datetime-local"]{
     width: auto;
     display: inline;
     border: 1px solid #7a7373;

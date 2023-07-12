@@ -21,23 +21,17 @@
          <br>
          <input type="text" id="lname" name="lname1" value=" ">
          <br>
-         <label for=”days”>Choose a Date:</label>
-         <br>
          <!--DATES-->
          
          <div name="choseDate">
-            <input type="date" id="yourDatePicker">
-            <div class="error"></div>
-            <!--TIMES-->
+            <label for="meeting-time">Choose the prefer date for your appointment.</label> <br>
+
+            <input type="datetime-local" id="meeting-time"
+                  name="meeting-time" value="2023-07-11T09:00"
+                  min="2023-07-11T07:00" max="2023-09-30T16:00" required>
             <br>
-            Choose the time:
-            <br>
-            <input type="radio" name="time" value="yes">9:30AM  (PST)<br>
-            <input type="radio" name="time" value="yes">10:30AM (PST)<br>
-            <input type="radio" name="time" value="yes">11:30AM (PST)<br>
-            <br>
-            Select the right option: 
-            <br>
+      
+            <p>Select the desired option:</p>
             <input type="radio" name="method" value="In person">In person<br>
             <input type="radio" name="method" value="Zoom">Zoom<br>  
          </div>
