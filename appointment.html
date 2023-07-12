@@ -25,11 +25,10 @@
          
          <div name="choseDate">
             <label for="meetingTime">Choose the prefer date for your appointment.</label> <br>
-
             <input type="datetime-local" id="meetingTime"
-                  name="meeting-time" value="2023-07-11T09:00"
-                  min="2023-07-11T07:00" max="2023-09-30T16:00" required>
-            <span class="error" aria-live="polite"></span>
+                  name="meeting-time" value="YYYY-MM-DDT09:00"
+                  min="2023-07-11T07:00" max="2025-09-30T16:00" required>
+                  <div id="error">Enter a valid date</div>
             <br>
             <p>Select the desired option:</p>
             <input type="radio" name="method" value="In person">In person<br>

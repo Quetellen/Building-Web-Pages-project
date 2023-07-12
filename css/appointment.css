@@ -51,13 +51,6 @@ input[type="datetime-local"]{
     font-size: 24px;
 }
 
-/* input:invalid {
-    border: 2px dashed red;
-  }
-  
-  input:valid {
-    border: 2px solid black;
-  } */
 
 select[id]{
     width: 18%;
@@ -104,17 +97,8 @@ select {
     font-size: 24px;
 }
 
-.error {
-    width: 100%;
-    padding: 0;
-  
-    font-size: 80%;
-    color: white;
-    background-color: #900;
-    border-radius: 0 0 5px 5px;
-    box-sizing: border-box;
-  }
-  
-  .error.active {
-    padding: 0.3em;
-  }
+.error{
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
