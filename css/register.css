@@ -4,7 +4,6 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-
 #form{
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
@@ -15,25 +14,21 @@ body{
     border-radius: 24px;
     background: linear-gradient(120deg,#f5e6d2,#a39579 100%);
 }
-
 h1{
     color: rgba(118, 88, 46, 0.989);
     font-family: poppins;
     font-size: 400%;
 }
-
 #form h3{
     font-size: 200%;
     text-align: center;
     color: rgb(169, 145, 83);
 }
-
 #form img{
     width: 128px;
     height: 128px;
     border-radius: 50%;
 }
-
 #submit {
     width: auto;
     display: inline;
@@ -45,24 +40,19 @@ h1{
     font-family: poppins;
     font-size: 24px;
 }
-
 .input-control input {
     font-family: poppins;
     font-size: 24px;
     color: rgb(27, 25, 25);
 }
-
 .input-control {
     font-family: poppins;
     font-size: 24px;
     color: rgb(27, 25, 25);
-    
 }
-
 .input-control input: focus {
     outline:0
 }
-
 .input-control .error{
     color: #ff3860;
     font-size: 12px;

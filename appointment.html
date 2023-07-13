@@ -12,7 +12,7 @@
 
    <div class="container">
       <h3>Book your Appointment</h3>
-      <form id="form" action="#" method="get" name="meeting">
+      <form id="form" action="#" method="get" name="form">
          <label for="fname">First name:</label>
          <br>
          <input type="text" id="fname" name="fname1" value=" ">
@@ -26,7 +26,7 @@
          <div name="choseDate">
             <label for="meetingTime">Choose the prefer date for your appointment.</label> <br>
             <input type="datetime-local" id="meetingTime"
-                  name="meeting-time" value="YYYY-MM-DDT09:00"
+                  name="meeting-time" value="YYYY-MM-DDT00:00"
                   min="2023-07-11T07:00" max="2025-09-30T16:00" required>
                   <div id="error">Enter a valid date</div>
             <br>
@@ -41,6 +41,8 @@
          <input type="reset" value="Cancel">
       </form> 
    </div>  
+
+   <script defer src="./js/validatingappointment.js"></script>
 
 </body>
 </html>
