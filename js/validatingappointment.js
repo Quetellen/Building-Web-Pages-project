@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 const meetingTime = document.getElementById('meetingTime');
-const errorElement = document.getElementById('error')
+
 
 form.addEventListener('submit', e  => {
     e.preventDefault();
@@ -51,12 +51,16 @@ const validateInputs = () => {
     //setError(meetingTime, meetingTimeValue);
     setError(meetingTime, 'Invalid date');
 
+
+
     // if(meetingTimeValue === '') {
-    //     setError(meetingTime, 'A date is required');
-    // } else if (meetingTimeValue === isValidMeetingTime) {
-    //     setSuccess(meetingTime, 'Date available');
+    //     setError(meetingTime, 'A date is required');   
+    // } else if (!isValidMeetingTime(meetingTimeValue)) {
+    //     setError(meetingTime, 'Invalid date'); 
     // } else {
-    //     setError(meetingTime, 'This is date is no available');
-    // }
+    //     setSuccess(meetingTime);
+    // };
 };
+
+
 

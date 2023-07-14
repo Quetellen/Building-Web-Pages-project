@@ -11,26 +11,28 @@
    <h1>Archi+tech Innovations</h1>
 
    <div class="container">
-      <h3>Book your Appointment</h3>
+   
       <form id="form" action="/" method="get" name="form">
-         <label for="fname">First name:</label>
-         <br>
-         <input type="text" id="fname" name="fname1" value=" " placeholder="lala">
-         <br>
-         <label for="lname">Last name:</label>
-         <br>
-         <input type="text" id="lname" name="lname1" value=" ">
-         <br>
+         <h3>Book your Appointment</h3>
+         <!-- FULL NAME -->
+         <div class="input-control">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname1" value=" " placeholder="First name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname1" value=" " placeholder="Last name"><br>
+         </div>
          <!--DATES--> 
-         <div id="choseDate">
+         <div class="input-control">
             <label for="meetingTime">Choose the prefer date for your appointment.</label> <br>
             <input type="datetime-local" id="meetingTime" name="meeting-time" required> <br>
             <div class="error"></div>
-            <br> 
          </div>
-         <p>Aditional details</p>
-         <textarea id="message" name="message" rows="4" cols="50"></textarea>
-         <br>
+         <!-- DETAILS -->
+         <div class="input-control">
+            <p>Aditional details</p>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+         </div>
+         <!-- BUTON -->
          <button id="submit" type="submit">Submit</button>
          <button id="reset" type="reset">Reset</button>
       </form> 
