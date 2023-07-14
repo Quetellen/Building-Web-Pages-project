@@ -70,7 +70,7 @@ textarea{
     padding: 8px;
     margin: 8px;
 }
-input[type="submit"]{
+button {
     width: auto;
     display: inline;
     border: 1px solid #7a7373;
@@ -81,17 +81,7 @@ input[type="submit"]{
     font-family: poppins;
     font-size: 24px;
 }
-input[type="reset"]{
-    width: auto;
-    display: inline;
-    border: 1px solid #7a7373;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 8px;
-    margin: 8px;
-    font-family: poppins;
-    font-size: 24px;
-}
+
 select {
     font-family: poppins;
     font-size: 24px;
@@ -99,6 +89,6 @@ select {
 
 .error{
     color: #ff3860;
-    font-size: 12px;
+    font-size: 25px;
     height: 13px;
 }
