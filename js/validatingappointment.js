@@ -27,7 +27,26 @@ const setSuccess = element => {
     inputControl.classList.remove('error');
 };
 
+// const validateInputs = () => {
+//     const meetingTimeValue = meetingTime.value.trim();
+//     setError(meetingTime, 'Invalid date');
+// };
+
+// const isValidMeetingTime = username => {
+//     const re = "^(mon|Mon|t(ues|hurs)|(T(ues|hurs))|Fri|fri)(day|\\.)"
+//     + "?$|wed(\\.|nesday)?$|Wed(\\.|nesday)?$|Sat(\\.|urday)"
+//     + "?$|t((ue?)|(hu?r?))\\.?$|T((ue?)|(hu?r?))\\.?$";
+//     return re.test(String(username).toLowerCase());
+// };
+
 const validateInputs = () => {
     const meetingTimeValue = meetingTime.value.trim();
-    setError(meetingTime, 'Invalid date');
+
+    if(meetingTimeValue === '') {
+        setError(meetingTime, 'A date is required');
+    } else if (!isValidMeetingTime(meetingTimeValue)) {
+        setError(meetingTime, 'Invalid date');  
+    } else if (meetingTimeValue === isValidMeetingTime) {
+        setSuccess(meetingTime);        
+    }
 };
